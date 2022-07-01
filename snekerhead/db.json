@@ -1,0 +1,144 @@
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-2-40-850x816.jpg",
+      "name": "AIR MAX 90 PRO GREEN / PALE IVORY ",
+      "brand": "Nike",
+      "category": "Lowtop",
+      "type": "Men",
+      "price": 12995,
+      "description": "Nubuck mudguard and suede overlays elevate the classic look. Twill tongue with leather binding adds a sophisticated finish. Originally designed for performance running, visible Air cushioning puts the history of comfort beneath your feet Waffle outsole delivers durable traction and heritage style.",
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "image": "https://superkicks.in/wp-content/uploads/2022/05/2-61-400x400.jpg",
+      "name": "LEBRON 19  WHITE / UNIVERSITY RED",
+      "brand": "Nike",
+      "category": "Hightop",
+      "type": "Men",
+      "price": 17595,
+      "description": "LeBron thrives when stakes are high and the pressures on. The LeBron 19 harnesses that energy with a locked-in fit and an updated cushioning system. The snug inner sleeve is pulled together by a sculpted overlay that the laces feed through to help prevent the foot from moving inside the shoe. Cushioned pods around the collar and tongue add comfort while reducing weight, giving players the secure feel and confidence to go all out when the game is on the line.",
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "image": "https://superkicks.in/wp-content/uploads/2022/05/1-11-850x816.jpg",
+      "name": "WMN’S AIR MAX 90 ‘ SANDDRIFT / ROSE WHISPER",
+      "brand": "Nike",
+      "category": "Lowtop",
+      "type": "Women",
+      "price": 12795,
+      "description": "The Nike Air Max 90 Futura reimagines the icon of Air through your eyes—from design to testing to styling. Sawtooth edging around the toe and a partially floating Swoosh deliver skillfully crafted luxury. Plush padding around the ankle mixes with trusted Air cushioning to bring you first-class comfort. It’s playful, comfortable, sporty and whatever else you want it to be.",
+      "rating": 4.5
+    },
+    {
+      "id": 4,
+      "image": "https://superkicks.in/wp-content/uploads/2022/01/1-16-850x850.jpg",
+      "name": "AIR HUARACHE LETHAL PINK",
+      "brand": "Nike",
+      "category": "Midtop",
+      "type": "Women",
+      "price": 19795,
+      "description": "Built to fit your foot and designed for comfort, the Nike Air Huarache brings back a street-level favorite. Soft leather accents on the upper mix with super-breathable, perfectly shined neoprene-like fabric for easy styling. The low-cut collar and bootie-like construction keep it sleek. Its iconic heel clip and stripped away branding keep the early ’90s look you love.",
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-1-16-850x816.jpg",
+      "name": "OZELIA  CORE BLACK",
+      "brand": "Adidas",
+      "category": "Lowtop",
+      "type": "Women",
+      "price": 10895,
+      "description": "Based on ’90s-era runners, these adidas Ozelia Shoes have a high-impact look that always stands out. Thanks to their pillowy-soft Adiprene cushioning and easy-to-pair colors, you’ll want to wear them everywhere you go. Made in part with recycled content generated from production waste, e.g. cutting scraps, and post-consumer household waste to avoid the larger environmental impact of producing virgin content.",
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-2-28-850x816.jpg",
+      "name": "SUPERSTAR PRIDE ‘ CREAM WHITE / CORE BLACK",
+      "brand": "Adidas",
+      "category": "Lowtop",
+      "type": "Men",
+      "price": 9999,
+      "description": "The 2022 adidas X Kris Andrew Small Pride Collection was inspired by the Stonewall Activists of the Stonewall Uprising in 1969. Together adidas and Kris Andrew Small offer a collection in solidarity & celebration of the LGBTQIA+ community’s past & present, honouring unique belonging – creating a colourful & diverse graphic message among this inclusive & optimistic collection. This partnership is also adjacent to adidas’ two key Global Purpose Partners, Athlete Ally & Stonewall UK. You deserve to be seen exactly as you are. These adidas Superstar Pride Shoes celebrate the diverse LGBTQ+ community and honour the energy that pulses when we all come together as our own unique selves. Matching that energy are the bold neon graphics on the colourful leather upper. The words “BE TOGETHER” wrap their way around the shoe from front to back as a reminder of the power that comes from community.",
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-1-23-850x816.jpg",
+      "name": "NIZZA HI ‘ CLOUD WHITE",
+      "brand": "Adidas",
+      "category": "Hightop",
+      "type": "Men",
+      "price": 8999,
+      "description": "Change is possible when we work together. That’s why we’ve teamed up with Parley for the Oceans on these adidas Nizza shoes — as a reminder that we all have a part to play in helping to end plastic waste. The evolution of this icon is rooted in the classic elements you covet: high top fit, signature rubber toe bumper and strong adidas vibes. This shoe’s upper is made with a high-performance yarn which contains at least 50% Parley Ocean Plastic —  reimagined plastic waste, intercepted on remote islands, beaches, coastal communities and shorelines, preventing it from polluting our ocean. The other 50% of the yarn is recycled polyester.",
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "image": "https://superkicks.in/wp-content/uploads/2021/11/AR0715-010-1-850x850.jpg",
+      "name": "WMN’S AIR JORDAN 11 ‘ ANIMAL INSTINCT",
+      "brand": "Nike",
+      "category": "Hightop",
+      "type": "Women",
+      "price": 17995,
+      "description": "Just like when MJ first rocked it in 1995, the Air Jordan 11 continues to show out wherever it shows up. This latest edition is elevated with luxury materials, marked by a variety of screen-printed animal patterns.The colorway comes dressed in contrasting shades of Black and White, with a metallic Jumpman on the collar and hits of Red branding on the tongue and heel. The elevated materials and premium style add a new chapter to the design stories that make the Air Jordan 11 a footwear legend and cultural icon.",
+      "rating": 4.9
+    },
+    {
+      "id": 9,
+      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-1-47-850x816.jpg",
+      "name": "AIR TRAINER 1 ‘ PHOTON DUST/LIGHT SMOKE ",
+      "brand": "Nike",
+      "category": "Midtop",
+      "type": "Men",
+      "price": 11895,
+      "description": "From the gym to the courts and everywhere in between, the famed cross trainer from ’87 lets you travel without a glitch. Details like the forefoot strap nod to the original, while premium nubuck leather (done up in an easy-to-style Photon Dust) ages to perfection. Designed at the time for performance sports, the heel’s Air cushioning and mid-height collar keep your ride comfortable and secure for today’s adventures.",
+      "rating": 4.9
+    },
+    {
+      "id": 10,
+      "image": "https://superkicks.in/wp-content/uploads/2022/05/1-74-850x816.jpg",
+      "name": "LEBRON 19 ‘ WHITE / BLACK / METALLIC GOLD ",
+      "brand": "Nike",
+      "category": "Hightop",
+      "type": "Men",
+      "price": 17995,
+      "description": "LeBron thrives when stakes are high and the pressure’s on. The LeBron 19 harnesses that energy with a locked-in fit and an updated cushioning system. The snug inner sleeve is pulled together by a sculpted overlay that the laces feed through to help prevent the foot from moving inside the shoe. Cushioned pods around the collar and tongue add comfort while reducing weight, giving players the secure feel and confidence to go all out when the game is on the line.",
+      "rating": 4.9
+    }
+  ],
+  "cart": [
+    {
+      "name": "AIR MAX 90 PRO GREEN / PALE IVORY ",
+      "price": 12995,
+      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-2-40-850x816.jpg",
+      "size": 9,
+      "id": 1
+    },
+    {
+      "name": "LEBRON 19  WHITE / UNIVERSITY RED",
+      "price": 17595,
+      "image": "https://superkicks.in/wp-content/uploads/2022/05/2-61-400x400.jpg",
+      "size": 8,
+      "id": 2
+    },
+    {
+      "name": "AIR MAX 90 PRO GREEN / PALE IVORY ",
+      "price": 12995,
+      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-2-40-850x816.jpg",
+      "size": 8,
+      "id": 3
+    },
+    {
+      "name": "AIR HUARACHE LETHAL PINK",
+      "price": 19795,
+      "image": "https://superkicks.in/wp-content/uploads/2022/01/1-16-850x850.jpg",
+      "size": 9,
+      "id": 4
+    }
+  ]
+}
