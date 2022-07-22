@@ -1,5 +1,4 @@
-{
-  "sneakers": [
+ [
     {
       "id": 1,
       "image": "https://superkicks.in/wp-content/uploads/2022/04/1-2-40-850x816.jpg",
@@ -110,35 +109,5 @@
       "description": "LeBron thrives when stakes are high and the pressure’s on. The LeBron 19 harnesses that energy with a locked-in fit and an updated cushioning system. The snug inner sleeve is pulled together by a sculpted overlay that the laces feed through to help prevent the foot from moving inside the shoe. Cushioned pods around the collar and tongue add comfort while reducing weight, giving players the secure feel and confidence to go all out when the game is on the line.",
       "rating": 4.9
     }
-  ],
-  "cart": [
-    {
-      "name": "AIR MAX 90 PRO GREEN / PALE IVORY ",
-      "price": 12995,
-      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-2-40-850x816.jpg",
-      "size": 9,
-      "id": 1
-    },
-    {
-      "name": "LEBRON 19  WHITE / UNIVERSITY RED",
-      "price": 17595,
-      "image": "https://superkicks.in/wp-content/uploads/2022/05/2-61-400x400.jpg",
-      "size": 8,
-      "id": 2
-    },
-    {
-      "name": "AIR MAX 90 PRO GREEN / PALE IVORY ",
-      "price": 12995,
-      "image": "https://superkicks.in/wp-content/uploads/2022/04/1-2-40-850x816.jpg",
-      "size": 8,
-      "id": 3
-    },
-    {
-      "name": "AIR HUARACHE LETHAL PINK",
-      "price": 19795,
-      "image": "https://superkicks.in/wp-content/uploads/2022/01/1-16-850x850.jpg",
-      "size": 9,
-      "id": 4
-    }
   ]
-}
+  

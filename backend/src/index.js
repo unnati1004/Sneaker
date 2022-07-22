@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const connect = require('./config/db');
 const cors = require('cors'); 
-const product = require('./controllers/product_controllers')
+const product = require('./controllers/product_controller')
 app.use(express.json());
 const corsOptions = {
   origin: '*',
