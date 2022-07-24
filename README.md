@@ -1,13 +1,14 @@
-# first-cry-Web-Clone
+# Sneaker
 
-![first-cry](https://user-images.githubusercontent.com/96103401/158337065-c1e2e63e-7bcf-41b7-924b-3332eb5606a3.png)
+![Screenshot (1507)](https://user-images.githubusercontent.com/95961486/180657583-37a61718-a2f5-4be8-8671-9418249b80bd.png)
+
 
 
 # Welcome :wave:
 
-### About first-cry:
+### About Sneaker:
 
-> FirstCry is an Indian e-commerce company, headquartered in Pune. The company, launched in 2010, initially focused on baby products retailing. In January 2020, the company had over 380 stores across India.FirstCrys opened its first outlet in Srinagar in May 2019.It is into its series E round of financing.
+> Sneaker is an Indian e-commerce company, headquartered in Pune. The company, launched in 2010, initially focused on baby products retailing. In January 2020, the company had over 380 stores across India.FirstCrys opened its first outlet in Srinagar in May 2019.It is into its series E round of financing.
 
 # About this project ⏬
 
@@ -15,28 +16,20 @@
 ``git clone https://github.com/unnati1004/firstcry.git``
 
 ## Go to project directory:- 
-`cd first-cry`
+`cd sneakerhead`
 
 ## Presentation :-
 [Demo of project](https://drive.google.com/file/d/1zpSMY2SW8PYOS4i9NioGIY-cnNR78kAE/view?usp=sharing)
 
 ## deployment Link:-
-https://friendly-goldwasser-04fd7a.netlify.app/index.html
-
-## Contributers :- 
-- #### [Omkar](https://www.linkedin.com/in/omkar-salunkhe-1ba371228/)
-- #### [Unnati](https://www.linkedin.com/in/unnati-gandhi-122212230/)
-- #### [Vineeth](https://www.linkedin.com/in/vineethevk/)
-- #### [Sumit](https://www.linkedin.com/in/sumit-narwal-77a828138/)
-- #### [Tarun](https://www.linkedin.com/in/tarun-rakhunde-a65aa5228/)
-- #### [Praveen](https://www.linkedin.com/in/praveen-kumar-036005184/)
+https://vercel.com/unnati1004/snekerhead/HXVUVxzHBt6jPWNLWy1mbgPcYn9b
 
 
 ## Tech Stack :- 
 
 - #### HTML
 - #### CSS 
-- #### JavaScript
+- #### REACTjs
 - #### GIT
 - #### Express
 - #### Models
@@ -72,7 +65,6 @@ https://friendly-goldwasser-04fd7a.netlify.app/index.html
 
 
 ## Screenshots :- 
-## For more details :- ![frontpage](https://user-images.githubusercontent.com/96103401/158337719-d246069e-bd07-4be7-84e6-b675f776de92.png)
+## For more details :- ![Screenshot (1508)](https://user-images.githubusercontent.com/95961486/180657708-c09fb05d-a718-4f1a-bd09-a9f2a9eeab52.png)
 
-[Blog]( https://medium.com/@ossalunkhe09/cloning-firstcry-website-cf13071992cf)
 
