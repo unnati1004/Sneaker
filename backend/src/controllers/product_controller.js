@@ -19,12 +19,52 @@ router.get("", async (req, res) => {
                 .limit(size)
                 .lean()
                 .exec();
+                return res.status(200).send(products);
+        }
+        
+        if(req.query.type && req.query.brand){
+            console.log()
+            products = await Prod.find( {type:req.query.type,brand:req.query.brand} )
+                .sort(sort)
+                .skip((page - 1) * size)
+                .limit(size)
+                .lean()
+                .exec();
+                return res.status(200).send(products);
+        }
+        if(req.query.type && req.query.category){
+            products = await Prod.find( {type:req.query.type,category:req.query.category} )
+                .sort(sort)
+                .skip((page - 1) * size)
+                .limit(size)
+                .lean()
+                .exec();
+                return res.status(200).send(products);
+        }
+        else if(req.query.type){
+            products = await Prod.find({ type:req.query.type })
+                .sort(sort)
+                .skip((page - 1) * size)
+                .limit(size)
+                .lean()
+                .exec();
+                return res.status(200).send(products);
+        }
+        else if(req.query.category){
+            products = await Prod.find({ category:req.query.category })
+                .sort(sort)
+                .skip((page - 1) * size)
+                .limit(size)
+                .lean()
+                .exec();
+                return res.status(200).send(products);
         }
         else {
             products = await Prod.find().skip((page -1)*size).limit(size).sort(sort).lean().exec();
+            return res.status(200).send(products);
         }
 
-        return res.status(200).send(products);
+        
     } catch (error) {
         return res.status(500).send(error.message);
     }
