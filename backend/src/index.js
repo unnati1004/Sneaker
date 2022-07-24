@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+require("dotenv").config();
 const connect = require('./config/db');
 const cors = require('cors'); 
 const product = require('./controllers/product_controller')
@@ -11,7 +12,7 @@ const corsOptions = {
 }
 app.use(cors(corsOptions));
 app.use('/sneaker',product);
-const port = 2345;
+const port = process.env.PORT || 2345;
 app.listen(port, async () => {
   try {
     await connect();
