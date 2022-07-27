@@ -13,7 +13,7 @@
 # About this project ⏬
 
 ## Run Locally :-
-``git clone https://github.com/unnati1004/firstcry.git``
+``git clone https://github.com/unnati1004/Sneaker.git``
 
 ## Go to project directory:- 
 `cd sneakerhead`
