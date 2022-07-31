@@ -42,16 +42,19 @@ export default function Register() {
       const handlechange = (e) => {
         const { name, value } = e.target;
         setData({ ...data, [name]: value });
+        // console.log("data",data)
       };
-  const handleSubmit = async(event) => {
-    event.preventDefault();
+
+  const handleSubmit = async(e) => {
+    e.preventDefault();
+    // console.log("data",data);
      try{
          const result = await createUserWithEmailAndPassword(
              auth,
              email,
              password
            );
-           console.log(result);
+           console.log("result",result.user);
          navigate('/login')
      }catch(err){
         console.log(err)
@@ -76,7 +79,7 @@ export default function Register() {
           <Typography component="h1" variant="h5">
             Register
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+          <Box noValidate sx={{ mt: 1 }}>
             <TextField
               margin="normal"
               required
@@ -107,6 +110,9 @@ export default function Register() {
               type="submit"
               fullWidth
               variant="contained"
+              onClick={()=>{
+                handleSubmit()
+              }}
               sx={{ mt: 3, mb: 2 }}
             >
               Register
