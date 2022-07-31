@@ -11,7 +11,7 @@ export const Cart = () =>{
      getdata()
   },[])
   const getdata=()=>{
-    axios.get('https://sneakerhead27.herokuapp.com/cart').then((res)=>{
+    axios.get('https://sneaker-1.herokuapp.com/cart').then((res)=>{
         setdata(res.data)
         console.log(res.data)
     })
@@ -22,13 +22,14 @@ export const Cart = () =>{
   })
   let GST=Math.round(sum*0.18);
 
-  const handledelete=(id)=>{
+  const handledelete=(_id)=>{
+    // console.log("id",_id)
       const Delete =data.filter((el)=>{
-          return el.id!==id
+          return el._id!==_id
       })
-      console.log(id,"kvkekbdf")
+      // console.log(_id,"kvkekbdf")
       setdata([...Delete])
-      axios.delete(`http://localhost:3001/cart/${id}`)
+      axios.delete(`https://sneaker-1.herokuapp.com/cart/${_id}`)
 //      setdata(res.data);
 //      getdata()
 //    })
@@ -44,7 +45,7 @@ export const Cart = () =>{
            <h1>{data.length===0?<img style={{width:"90%"}} src="https://www.creativehatti.com/wp-content/uploads/2022/05/Santa-Claus-is-sitting-on-a-shopping-cart-10-small.jpg"></img>:null}</h1>
            {data .map((e)=>{
           return(
-            <div className="single" key={e.id}>
+            <div className="single" key={e._id}>
                 <div className="cartimg">
                 <img src={e.image}></img>
                 </div>

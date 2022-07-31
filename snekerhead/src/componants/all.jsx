@@ -9,7 +9,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 export const All = () =>{
     const [data,setdata]=React.useState([])
     const [price, setPrice] = React.useState('');
@@ -114,7 +114,7 @@ return(
         </div>
        <div className="all_shoe">
        {product.map((e)=>
-       <Link to={`/shoedetail/${e.id}`}><div className="childdiv" key={e.id}>
+       <Link to={`/shoedetail/${e._id}`}><div className="childdiv" key={e._id}>
            <div className="imgdiv">
            <img src={e.image}></img>
            </div>

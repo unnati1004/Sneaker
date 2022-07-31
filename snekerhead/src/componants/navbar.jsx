@@ -16,7 +16,7 @@ import styled from "styled-components"
 import { useNavigate } from "react-router"
 
 const pages = ["Men","Women","All Products","Cart"];
-const settings = ['Profile', 'Logout'];
+const settings = ['Register', 'Login','Logout'];
 
 const ResponsiveAppBar = () => {
   const navigate= useNavigate()
@@ -35,8 +35,13 @@ const ResponsiveAppBar = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
+  const handleCloseUserMenu = (e) => {
+    if(e==="Login") navigate('/login')
+    if(e==="Register") navigate('/register')
     setAnchorElUser(null);
+  //  if(e==="Women") navigate('/women')
+  //  if(e==='All Products') navigate('/all')
+  //  if(page==='Cart') navigate('/cart')
   };
   const handlenavigate=(page)=>{
    if(page==="Men") navigate('/men')
@@ -170,7 +175,7 @@ const ResponsiveAppBar = () => {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                <MenuItem key={setting} onClick={()=>handleCloseUserMenu(setting)}>
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
