@@ -21,17 +21,17 @@ function App() {
     <div className="App">
     <ResponsiveAppBar/>
     <Routes>
-    <Route path='' element={<Home/>}></Route>
-    <Route path='/men' element={<Men/>}></Route>
-    <Route path='/women' element={<Women/>}></Route>
-    <Route path='/login' element={<Login/>}></Route>
-    <Route path='/register' element={<Register/>}></Route>
-    <Route path='/all' element={<All/>}></Route>
-    <Route path='/shoedetail/:_id' element={<ShoeDetail/>}></Route>
-    <Route path='/cart' element={<Cart/>}></Route>
-    <Route path='/checkout' element={<Checkout/>}></Route>
-    <Route path='/payment' element={<Payment/>}></Route>
-    <Route path='/thankyou' element={<Thankyou/>}></Route>
+    <Route path='' element={<Home/>}/>
+    <Route path='/men' element={<Men/>}/>
+    <Route path='/women' element={<Women/>}/>
+    <Route path='/login' element={<Login/>}/>
+    <Route path='/register' element={<Register/>}/>
+    <Route path='/all' element={<All/>}/>
+    <Route path='/shoedetail/:_id' element={<ShoeDetail/>}/>
+    <Route path='/cart' element={<Cart/>}/>
+    <Route path='/checkout' element={<Checkout/>}/>
+    <Route path='/payment' element={<Payment/>}/>
+    <Route path='/thankyou' element={<Thankyou/>}/>
     </Routes>
     {/* <Footer/> */}
      </div>

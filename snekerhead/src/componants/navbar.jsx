@@ -14,12 +14,16 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import styled from "styled-components"
 import { useNavigate } from "react-router"
-
+import { useContext } from 'react';
+import {signOut} from "firebase/auth";
+import {auth} from "../Firebas";
+import {Auth} from "../context/auth"
 const pages = ["Men","Women","All Products","Cart"];
 const settings = ['Register', 'Login','Logout'];
 
 const ResponsiveAppBar = () => {
-  const navigate= useNavigate()
+  const navigate= useNavigate();
+  // const {user} = useContext(Auth);
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -34,14 +38,17 @@ const ResponsiveAppBar = () => {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
+  const sign=async(auth)=>{
+    await signOut(auth);
+    navigate("/");
+  }
   const handleCloseUserMenu = (e) => {
     if(e==="Login") navigate('/login')
     if(e==="Register") navigate('/register')
+    if(e==="Logout") {
+       sign(auth);
+    }
     setAnchorElUser(null);
-  //  if(e==="Women") navigate('/women')
-  //  if(e==='All Products') navigate('/all')
-  //  if(page==='Cart') navigate('/cart')
   };
   const handlenavigate=(page)=>{
    if(page==="Men") navigate('/men')
@@ -138,7 +145,7 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none',
             }}
           >
-                      <img onClick={()=>{navigate('')}} src='https://www.jing.fm/clipimg/full/6-64453_air-jordan-shoes-drawing-easy-jordan-1-drawing.png' width={100}></img>
+          <img onClick={()=>{navigate('')}} src='https://www.jing.fm/clipimg/full/6-64453_air-jordan-shoes-drawing-easy-jordan-1-drawing.png' width={100}></img>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
