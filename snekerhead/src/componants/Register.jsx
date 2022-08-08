@@ -42,7 +42,7 @@ export default function Register() {
         password
       );
       console.log("result", result.user);
-      navigate("/card");
+      navigate("/");
     } catch (err) {
       console.log(err);
     }
@@ -112,7 +112,7 @@ export default function Register() {
               </Grid>
               <Grid item>
                 <Link to="/login" variant="body2">
-                  {"Don't have an account? Sign Up"}
+                  {"Already have a account"}
                 </Link>
               </Grid>
             </Grid>
